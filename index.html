@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Programacion Web</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Barra de navegación -->
+    <nav>
+        <ul>
+            <li><a href="#home">Inicio</a></li>
+            <li><a href="#about">Sobre mí</a></li>
+            <li><a href="#gallery">Galería</a></li>
+            <li><a href="#contact">Contacto</a></li>
+        </ul>
+    </nav>
+
+    <!-- Sección Inicio -->
+    <section id="home">
+        <h1>Bienvenido a mi Página Avanzada</h1>
+        <p>Explora el contenido dinámico con animaciones y efectos.</p>
+    </section>
+
+    <!-- Sección Sobre mí -->
+    <section id="about">
+        <h2>Sobre mí</h2>
+        <p>Soy un desarrollador web apasionado por crear experiencias interactivas y atractivas.</p>
+    </section>
+
+    <!-- Sección Galería con filtro -->
+    <section id="gallery">
+        <h2>Galería de Imágenes</h2>
+        <div id="filters">
+            <button class="filter-btn" data-filter="all">Todo</button>
+            <button class="filter-btn" data-filter="nature">Naturaleza</button>
+            <button class="filter-btn" data-filter="tech">Tecnología</button>
+        </div>
+        <div class="gallery-container">
+            <div class="gallery-item nature"><img src="images/img1.jpg" alt="Naturaleza 1"></div>
+            <div class="gallery-item tech"><img src="images/img2.jpg" alt="Tecnología 1"></div>
+            <div class="gallery-item nature"><img src="images/img3.jpg" alt="Naturaleza 2"></div>
+            <div class="gallery-item tech"><img src="images/img4.jpg" alt="Tecnología 2"></div>
+        </div>
+    </section>
+
+    <!-- Sección de Contacto -->
+    <section id="contact">
+        <h2>Contacto</h2>
+        <form id="contact-form">
+            <input type="text" id="name" placeholder="Tu nombre" required>
+            <input type="email" id="email" placeholder="Tu email" required>
+            <textarea id="message" placeholder="Escribe tu mensaje" required></textarea>
+            <button type="submit">Enviar</button>
+        </form>
+    </section>
+
+    <!-- Pie de página -->
+    <footer>
+        <p>&copy; 2024 Mi Página Avanzada. Todos los derechos reservados.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
+
